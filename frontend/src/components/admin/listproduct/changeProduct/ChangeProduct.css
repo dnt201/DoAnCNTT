@@ -1,0 +1,106 @@
+.flex-1{flex:1}
+.flex-2{flex:2}
+.flex-3{flex:3}
+.flex-4{flex:4}
+.flex-5{flex:5}
+.m-lr-8px {margin: 0px 8px}
+.m-b-8px {margin-bottom: 8px}
+.m-b-24px {margin-bottom: 24px}
+.w-120px {width: 120px}
+.m-r-16px {margin-right: 16px!important}
+.m-g-4-8px{margin: 4px 8px;}
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.red-bold {
+    color: red;
+    font-weight: bold;
+}
+.flex-row {
+    display: flex;
+    /* flex-direction: row; */
+}
+.change-product-container span {
+    font-weight: bold;
+}
+.change-product-container input {
+    font-size: 16px;
+    padding: 4px;
+}
+.change-product-container textarea {
+    padding: 4px;
+    font-size: 14px;
+}
+
+.change-product-container {
+    width: 100%;
+    min-height: 100vh;
+    opacity: 0.95;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+}
+.change-product-container .btn-fix-from-change {
+    background-color: transparent;
+    color: #e74c3c;
+    border: 1px solid #e74c3c;
+    padding: 0px 8px;
+    transition: .5s;
+}
+.change-product-container .btn-fix-from-change:hover {
+    cursor: pointer;
+    background-color: #e74c3c;
+    color: white;
+    transition: .5s;
+}
+
+
+.change-product-container .btn-save-from-change {
+    background-color: transparent;
+    color: #2ecc71;
+    border: 1px solid #2ecc71;
+    padding: 0px 8px;
+    transition: .5s;
+}
+.change-product-container .btn-save-from-change:hover {
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: white;
+    transition: .5s;
+}
+
+.change-product-container .btn-close-from-change {
+    background-color: transparent;
+    color: red;
+    border: none;
+    padding: 0px 32px;
+    margin-right: 16px;
+    font-size: 24px;
+    transition: .5s;
+}
+
+.change-product-container .btn-fix-from-change:disabled,
+.change-product-container .btn-save-from-change:disabled {
+    background-color: transparent;
+    color: gray;
+    border-color: gray;
+    cursor: default;
+}
+.change-product-container .btn-close-from-change:hover{
+    background-color: #e74c3c;
+    cursor: pointer;
+    color: white;
+    transition: .5s;
+}
+
+.change-product-container .image-previews {
+    max-width: 50%;
+    max-height: 25vh;
+    padding-bottom: 8px;
+    margin-left: 10%;
+}
+

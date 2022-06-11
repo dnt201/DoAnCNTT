@@ -1,0 +1,41 @@
+.pagination-components {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagination-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pagination-container > input {
+    padding: 0px 8px;
+    color:red;
+    text-align: center;
+    font-size:18px;
+    
+}
+.pagination-container input[type=number]::-webkit-inner-spin-button, 
+.pagination-container [type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.pagination-container > button {
+    padding: 4px 8px;
+    margin: 0px 4px;
+    background-color: transparent;
+    border: 1px solid;
+    color: rgb(51,51,51);
+    transition:.5s;
+}
+.pagination-container > button:disabled {
+    color: rgb(104, 104, 104);
+    opacity:0.8;
+}
+.pagination-container > button:hover:enabled {
+    color: red;
+    cursor: pointer;
+    transition:.5s;
+}

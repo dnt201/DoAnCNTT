@@ -1,0 +1,57 @@
+.btnHomePage {
+    border: none;
+    transition: 1s;
+}
+
+.btnHomePage:hover {
+    background-color: #E12128;
+    transform: scale(1.02);
+    transition: 1s;
+    color:white;
+}
+
+.flex_column_center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex_row_center {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+.w100 {
+    width: 100%;
+}
+.w35 {
+    width: 35%;
+}
+
+.white {
+    color: white;
+}
+
+.bg_white {
+    background-color: white;
+}
+
+.bg_gray {
+    background-color: rgb(51,51,51);
+}
+
+.mt_16px {
+    margin-top: 16px;
+}
+.mb_16px {
+    margin-bottom: 16px;
+}
+
+.mb_36px {
+    margin-bottom: 36px;
+}
+
+.pd_1628 {
+    padding: 16px 28px;
+}

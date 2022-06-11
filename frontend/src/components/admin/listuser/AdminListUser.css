@@ -1,0 +1,118 @@
+.f-s-24px {
+    font-size: 24px;
+}
+.flex-4 {
+    flex:4;
+}
+.flex-2{
+    flex:2;
+}
+.flex-1{
+    flex:1;
+}
+
+.admin-ListUser {
+    width: 100%;
+    padding: 0px 8px;
+}
+.admin-ItemUsers {
+    width: 100%;
+    padding: 4px 0px 4px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(51,51,51);
+    margin: 4px 0px;
+}
+
+.admin-ItemUsers .item-information  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex:10;
+}
+
+.admin-ItemUsers .item-information .icon-check {
+    font-size: 32px;
+    color: #2ecc71;   
+}
+
+.admin-ItemUsers .item-information .icon-no {
+    color: #e74c3c;
+    font-size: 32px;
+}
+
+.admin-ItemUsers .item-button  {
+    flex:3;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-left: 1px solid rgb(51,51,51);
+}
+
+.admin-ItemUsers .item-button .btn {
+    font-size: 24px;
+    padding:4px 12px;
+}
+.admin-ItemUsers .item-button .btn:disabled {
+    color: grey;
+    border-color: grey;
+}
+.admin-ItemUsers .item-button .btn:hover:disabled {
+    background-color:transparent;
+    color:grey;
+}
+
+
+
+.admin-ItemUsers .item-button .icon {
+    font-size: 20px;
+    margin-left: 4px;
+}
+
+
+.admin-ItemUsers .item-button .btn-detail{
+    color:#943ce7;
+    background-color: transparent;
+    border-color: #943ce7;
+    transition: .75s;
+}
+.admin-ItemUsers .item-button .btn-detail:hover{
+    color:white;
+    background-color: #943ce7;
+    transition: .75s;
+}
+
+.admin-ItemUsers .item-button .btn-change{
+    color:#2ecc71;
+    background-color: transparent;
+    border-color: #2ecc71;
+    transition: .75s;
+}
+.admin-ItemUsers .item-button .btn-change:hover{
+    color:white;
+    background-color: #2ecc71;
+    transition: .75s;
+}
+
+.admin-ItemUsers .item-button .btn-delete{
+    color:#e74c3c;
+    background-color: transparent;
+    border-color: #e74c3c;
+    transition: .75s;
+}
+.admin-ItemUsers .item-button .btn-delete:hover{
+    color:white;
+    background-color: #e74c3c;
+    transition: .75s;
+}
+
+.center-screen.loader {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

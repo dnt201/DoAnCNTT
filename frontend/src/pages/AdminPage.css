@@ -1,0 +1,72 @@
+.w-20p {
+   width:20%!important;
+}
+.adminPage {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.nav-left-admin {
+    display:flex;
+    flex-direction: column;
+    width: 15%;
+    background-color:bisque;
+}
+
+.nav-left-admin .title {
+    text-align: center;
+    font-size:32px;
+    margin:8px 0px 16px;
+}
+
+.nav-left-admin .btn {
+    background-color: transparent;
+    padding: 24px 4px;
+    font-size: 30px;
+    text-align: left;
+    transition: 1s;
+    border:none;
+    border-bottom: 1px solid rgb(51,51,51);
+}
+.nav-left-admin .btn:hover {
+    background-color:rgb(51,51,51);
+    color:white;
+    transition: 1s;
+}
+
+.container-right-admin {
+    width: 85%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+
+.listBtnCategory.active{
+    display: flex !important;;
+    width: 100%;
+    flex-direction: column;
+}
+.listBtnCategory{
+    display:none;
+}
+.listBtnCategory-btn {
+    padding:8px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+.listBtnCategory-btn.active {
+    background-color: rgb(51,51,51);
+    color:white;
+    transition: 1s;
+
+    /* visibility:hidden; */
+}
+.listBtnCategory-btn:hover {
+    background-color: grey;
+    color:rgb(51,51,51);
+    transition: 1s;
+    /* visibility:hidden; */
+}

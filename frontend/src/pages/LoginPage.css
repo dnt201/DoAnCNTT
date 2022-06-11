@@ -1,0 +1,60 @@
+.m-b-4px{
+    margin-bottom: 4px;
+}
+.m-b-12px{
+    margin-bottom: 12px;
+}
+
+
+
+.wrap-login>span {
+    font-size:44px;
+    padding-top: 40px;
+}
+.wrap-login>p {
+    padding-bottom: 40px;
+}
+
+.wrap-login label {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.wrap-login input {
+    font-size: 20px;
+    padding: 12px 8px;
+}
+
+.wrap-login .errorLogin{
+    color:#e74c3c;
+}
+
+.wrap-login .login-btn {
+    margin-top: 32px;
+    padding: 12px 0px;
+    width: 100%;   
+    font-size: 20px;
+    transition: .8s;
+    border:none;
+}
+.wrap-login .login-btn:hover {
+    background-color: rgb(60,60,60);
+    color:white;
+    transition: .8s;
+}
+
+.login-bottom-text {
+    margin-top: 12px;
+}
+
+.login-bottom-text a {
+    color:#e74c3c;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.login-bottom-text a:hover {
+    color:black;
+    transition: .5s;
+
+}

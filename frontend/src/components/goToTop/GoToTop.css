@@ -1,0 +1,30 @@
+.btn-goToTop {
+  position: fixed;
+  right: 48px;
+  bottom: 32px;
+  border: none;
+  background-color: transparent;
+}
+
+.icon-goToTop {
+  font-size: 108px;
+  color: #e01020;
+  opacity: 0.6;
+  transition: 1s;
+  padding: 8px;
+}
+.icon-goToTop:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: 1s;
+}
+
+@media screen and (max-width: 1000px) {
+  .btn-goToTop {
+    right: 32px;
+  }
+
+  .icon-goToTop {
+    font-size: 72px;
+  }
+}

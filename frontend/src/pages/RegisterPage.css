@@ -1,0 +1,130 @@
+.flex_row_around{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.m-t-16px {
+    margin-top: 16px
+  }
+.absolute {
+    position: absolute;
+}
+
+.relative{
+    position: relative;
+}
+
+.w48 {
+    width: 48%;   
+}
+.red_16px_bold {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.form_container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.wrap-register {
+
+    display: flex;
+    flex-direction: column;
+    width: 720px;
+    align-items: center;
+}
+
+.wrap-register .form_control {
+    position: relative;
+}
+.wrap-register .form_control.success input {
+    border:1px solid #2ecc71;
+}
+
+.wrap-register .form_control.success .correct_icon {
+    visibility:visible;
+}
+
+.wrap-register .form_control.error input{
+    border-color: #e74c3c;
+}
+
+.wrap-register .form_control.error .error_icon {
+    visibility:visible;
+}
+.wrap-register .form_control.error small {
+    visibility:visible;
+    color: #e74c3c;
+}
+
+
+.wrap-register>span {
+    font-size:44px;
+    padding-top: 40px;
+}
+.wrap-register>p {
+    padding-bottom: 40px;
+}
+
+.wrap-register label {
+    font-size:20px;
+    font-weight: bold;
+}
+
+.wrap-register input {
+    font-size: 20px;
+    padding: 8px 8px;
+}
+
+.wrap-register .register-btn {
+    margin-top: 32px;
+    padding: 12px 0px;
+    width: 100%;   
+    font-size: 20px;
+    transition: .8s;
+    border:none;
+}
+.wrap-register .register-btn:hover {
+    background-color: rgb(60,60,60);
+    color:white;
+    transition: .8s;
+}
+
+
+.wrap-register .correct_icon {
+    color:#2ecc71;
+    position: absolute;
+    right:10px;
+    top:40px;
+    visibility: hidden;
+}
+.wrap-register .error_icon {
+    color:#e74c3c;
+    position: absolute;
+    right:10px;
+    top:40px;
+    visibility: hidden;
+}
+.error_message {
+    visibility: hidden;
+}
+
+
+
+@media screen and (max-width:650px) {
+    .wrap-register {
+       
+        width: 360px;
+    }
+    .wrap-register_name_email {
+        flex-direction: column;
+    }
+    .wrap-register_name,
+    .wrap-register_email {
+        width: 100%;
+    }
+}
+

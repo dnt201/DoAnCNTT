@@ -1,0 +1,285 @@
+.f-s-48px {
+    font-size: 48px!important;
+}
+
+.red_16px_bold_m-t-4px{
+    color: red !important;;
+    font-size: 16px!important;
+    font-weight: bold !important;
+    margin-top: 4px !important;
+}
+.flex-2{
+    flex:2;
+}
+.flex-1{
+    flex:1;
+}
+
+.w-100p {
+    width: 100% !important;
+}
+
+.w-50p {
+    width: 50%!important;
+}
+
+.m-b-8px {
+    margin-bottom: 8px !important;
+}
+.m-t-16px {
+    margin-top: 16px !important;
+}
+
+.m-l-16px { 
+    margin-left:16px!important;
+}
+
+.t-a-center {
+    text-align: center!important;
+}
+
+.f-s-28px {
+    font-size:28px!important;
+}
+.f-s-24px {
+    font-size:24px!important;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-page {
+    padding:20px 0px 36px;
+    width: 100%;
+    min-height: 100vh;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-user-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: center;
+  
+}
+
+
+.user-avatar-name {
+    width: 25%;
+}
+
+.user-information {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.user-name-pass-word .password {
+    margin-left:16px;
+}
+.w-98p{width: 98%}
+.center_w50 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.user-page .list-bill-details {
+    width: 70%;
+}
+
+.user-page .details-bill {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+} 
+.user-page .details-bill .btn-detail {
+    height: 5%;
+    padding: 4px;
+}
+
+.user-page .wrap-button-user {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-page .btn-sua-thong-tin,
+.user-page .btn-luu-thong-tin {
+    width:45%;
+    padding: 8px 8px;
+    font-size: 20px;
+    background-color: transparent;
+    transition:1s;
+}
+
+.user-page .btn-sua-thong-tin {
+    border-color: #e74c3c;
+    transition:1s;
+}
+
+.user-page .btn-luu-thong-tin {
+    border-color: #2ecc71;
+    transition:1s;
+}
+
+.user-page .btn-sua-thong-tin:hover:enabled{
+    background-color: #e74c3c;
+    cursor: pointer;
+    color:rgb(51,51,51);
+    transition:1s;
+}
+
+.user-page .btn-luu-thong-tin:hover:enabled{
+    background-color: #2ecc71;
+    cursor: pointer;
+    color:rgb(51,51,51);
+    transition:1s;
+}
+
+
+.user-page .icon-sua-thong-tin {
+    color: #e74c3c;
+    transition:1s;
+}
+.user-page .btn-sua-thong-tin:hover:enabled .icon-sua-thong-tin {
+    color:rgb(51,51,51);
+    transition:1s;
+}
+.user-page .icon-luu-thong-tin {
+    color: #2ecc71;
+    transition:1s;
+}
+.user-page .btn-luu-thong-tin:hover:enabled .icon-luu-thong-tin{
+    color:rgb(51,51,51);
+    transition:1s;
+}
+.btn-doi-mat-khau {
+    margin-top: 8px;
+    width: 100%;
+    padding: 8px 8px;
+    font-size: 20px;
+    background-color: transparent;
+    color:#9a52b6;
+    border-color: #9a52b6;
+    transition:1s;
+}
+.btn-doi-mat-khau:hover:enabled{
+    background-color:#9a52b6;
+    color:rgb(51,51,51);
+    transition:1s;
+}
+.btn-doi-mat-khau:hover:enabled .icon-doi-mat-khau {
+    color:rgb(51,51,51);
+    transition:1s;
+} 
+.icon-doi-mat-khau {
+    color:#9a52b6;
+    transition:1s;
+}
+
+.lazy-res{
+    display: flex;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+}
+.lazy-right {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+.lazy-right > button {
+    width: 30%;
+    background-color:transparent;
+    color:teal;
+    border: 1px solid teal;
+    font-size: 16px;
+    transition:.5s;
+}
+.lazy-right > button:hover {
+    cursor: pointer;
+    background-color:teal;
+    color:white;
+    transition:.5s;
+}
+
+@media screen and (max-width: 800px){
+    .container-user-information{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-avatar-name {
+        width: 80%;
+        margin-bottom: 16px;
+    }
+    .user-information {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 720px){
+    .user-avatar-name {
+        width: 80%;
+        margin-bottom: 16px;
+    }
+    .user-information {
+        width: 90%;
+    }
+    .lazy-right {
+        flex-direction: column;
+        align-items:center;
+    }
+    .lazy-right >button {
+        width: 40%;
+    } 
+}
+
+@media screen and (max-width: 850px){
+    .lazy-res {
+        flex-direction: column;
+        align-items: normal;
+        width: 60%!important;
+    }
+    .lazy-right {
+        display: flex;
+        width: 40%!important;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .container-user-information{
+        flex-direction: column;
+        align-items: center;
+    }
+    .user-name-pass-word{
+        flex-direction: column!important;
+    }   
+    .user-name-pass-word .password {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .user-page .btn-sua-thong-tin,
+    .user-page .btn-luu-thong-tin {
+    width: 100%;
+}
+    .wrap-button-user {
+        flex-direction: column;
+    }
+    .wrap-button-user .btn-sua-thong-tin{
+        margin-bottom: 8px;
+    }
+}
+    

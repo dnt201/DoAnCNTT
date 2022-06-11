@@ -1,0 +1,130 @@
+
+.mb_4px{
+    margin-bottom:4px!important;
+}
+.w80 {
+    width: 80%!important;
+}
+
+.flex_row_evenly {
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.lazy_title {
+    padding: 12px 0px;
+    font-size: 20px;
+    text-align: center;
+}
+
+footer {
+    min-width: 100%;
+    max-width: 100%;
+    display:flex;
+    align-items: center;
+    min-height:6rem;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    flex-direction: column;
+    color:white;
+}
+
+.social_list {
+    min-width: 60%;
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+
+.social_item {
+    padding:16px;
+    font-size:28px;
+    color: white!important;
+    border-radius: 25%;
+    transition:0.75s;
+}
+
+.social_item:hover {
+    background-color: white!important;
+    color:rgba(0, 0, 0, 0.8)!important;
+    transition:0.75s;
+}
+
+.contactList {
+    min-width:90%;
+    max-width:90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 8px;
+}
+
+
+
+.information {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.information_item {
+    margin-bottom: 4px;
+}
+
+.member_list {
+    width: 30%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.member_item {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 4px;
+    transition: 1s;
+}
+
+.member_item:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.member_item img {
+    width: 70%;
+    border-radius: 50%;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .information{
+        width: 90%;
+    }
+    .contactList {
+        flex-direction: column;     
+        align-items: center;
+    }
+    .member_list {
+        width: 70%;
+    }
+
+    .social_list {
+        min-width: 80%;
+        max-width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 20px 0px;
+    }
+    
+    .social_item {
+        padding:20px;
+        font-size:32px;
+    }
+}
+

@@ -1,0 +1,55 @@
+.m-l-32px {margin-left: 32px;}
+.jt-ct-sa {
+    justify-content: space-around;
+}
+.color-red {
+    color: red;
+}
+.list-category-container .wrap img{
+    width: 25%;
+}
+.list-category-container{
+    margin: 16px 8px;
+}
+
+.list-category-container button,
+.list-category-container span {
+    font-size: 20px
+}
+.list-category-container button.btn-add {
+    color: #4797ff;
+    border: 1px solid #4797ff;
+
+}
+.list-category-container button.btn-add:hover {
+    background-color:#4797ff;
+}
+.list-category-container button.btn-update {
+    color: #36b36a;
+    border: 1px solid #36b36a;
+}
+.list-category-container button.btn-update:hover {
+    background-color:#36b36a;
+}
+.list-category-container button.btn-delete {
+    color: #e74c3c;
+    border: 1px solid #e74c3c; 
+}
+.list-category-container button.btn-delete:hover {
+    background-color:#e74c3c;
+}
+
+.list-category-container button {
+    transition: .5s;
+    background-color:transparent;
+    padding: 4px 8px;
+}
+.list-category-container button:hover {
+    color:white;
+    cursor: pointer;
+    transition: .5s;
+}
+.list-category-container .wrap {
+    padding-bottom: 16px;
+    border-bottom: 1px solid rgb(51,51,51);
+}
