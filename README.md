@@ -1,5 +1,5 @@
-<div align="center">
-  ### :name_badge: Đồ án CNTT
+ ### <div align="center">
+ :name_badge: Đồ án CNTT
 </div>
 
 ---
