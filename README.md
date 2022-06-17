@@ -1,4 +1,4 @@
-<div align="center">### :name_badge: Đồ án CNTT</div>
+<div align="center" size="64px">### :name_badge: Đồ án CNTT</div>
 
 ---
 
