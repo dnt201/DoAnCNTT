@@ -1,6 +1,5 @@
- ### <div align="center">
- :name_badge: Đồ án CNTT
-</div>
+### :name_badge: Đồ án CNTT
+
 
 ---
 
@@ -11,7 +10,16 @@
 --- 
 
 ### 📽️ About project:
-:fire: Describe: This is an e-commerce website used to sell information technology products <br>
-:fire: Architecture: Use MERN stack (<b>MongoDB</b> -<b>Express Express </b> - <b>ReactJS</b> -  <b>NodeJS</b>) <br>
-:fire: Features:
-- :man
+<b>:fire: Describe:</b> This is an e-commerce website used to sell information technology products <br>
+<b>:fire: Architecture:</b> Use MERN stack (<b>MongoDB</b> - <b>Express Express </b> - <b>ReactJS</b> -  <b>NodeJS</b>) <br>
+<b>:fire: Features:</b>
+- Admin:
+```
+- 1
+- 2
+```
+- User:
+```
+- 1
+- 2
+```
