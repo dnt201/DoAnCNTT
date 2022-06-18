@@ -44,17 +44,18 @@ Link register: sendgird https://app.sendgrid.com/guide/integrate/langs/nodejs
 ```
 REACT_APP_FIREBASE_API_KEY = "YOUR-UNIQUE-CREDENTIALS"
 REACT_APP_FIREBASE_AUTH_DOMAIN = "YOUR-PROJECT-NAME.firebaseapp.com"
-REACT_APP_FIREBASE_DATABASE_URL = "https://YOUR-PROJECT-NAME.firebaseio.com"
 REACT_APP_FIREBASE_PROJECT_ID = "YOUR-PROJECT-FIREBASE-PROJECT-ID"
 REACT_APP_FIREBASE_STORAGE_BUCKET = "YOUR-PROJECT-NAME.appspot.com"
 REACT_APP_FIREBASE_MESSAGING_SENDER_ID = "YOUR-PROJECT-SENDER-ID"
 REACT_APP_FIREBASE_APP_ID = "YOUR-PROJECT-APP-ID"
+REACT_APP_FIREBASE_MEASUREMENT_ID ="YOUR-PROJECT-MEASUREMENT_ID"
+
 In this video "https://www.youtube.com/watch?v=L-kxXFtql4Q&ab_channel=DarwinTech" 0:00-3:40 will guide how to Create and get API KEY.
 ```
 - Step 6: Run backend (api) go to backend path then use "npm run prod"
 - Step 7: Run web application go to frontend path then use "npm run start"
 ### 📷 Video demo:
- 🔗 https://drive.google.com/file/d/1DD0R4ynwn96mL89N3y9oXDckDZ18tH1L/view?usp=sharing
+ 🔗 https://drive.google.com/file/d/1DD0R4ynwn96mL89N3y9oXDckDZ18tH1L/view?usp=sharing <br>
  📓 Video demo to my teacher (Vietnamese Languge) and in this video i'm sick so it's very noisy (Caution)
  
  ### End:
