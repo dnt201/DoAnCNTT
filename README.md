@@ -53,3 +53,10 @@ In this video "https://www.youtube.com/watch?v=L-kxXFtql4Q&ab_channel=DarwinTech
 ```
 - Step 6: Run backend (api) go to backend path then use "npm run prod"
 - Step 7: Run web application go to frontend path then use "npm run start"
+### 📷 Video demo:
+ 🔗 https://drive.google.com/file/d/1DD0R4ynwn96mL89N3y9oXDckDZ18tH1L/view?usp=sharing
+ 📓 Video demo to my teacher (Vietnamese Languge) and in this video i'm sick so it's very noisy (Caution)
+ 
+ ### End:
+ Thank your reading, have a nice day. See you.
+
