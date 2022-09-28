@@ -1,18 +1,18 @@
-.flex-1{
-    flex:1;
+.flex-1 {
+  flex: 1;
 }
-.flex-2{
-    flex:2;
+.flex-2 {
+  flex: 2;
 }
-.flex-4{
-    flex:4;
+.flex-4 {
+  flex: 4;
 }
 
-.m-b-24px{
+.m-b-24px {
   margin-bottom: 24px;
 }
 .f-s-36px {
-  font-size: 36px!important;
+  font-size: 36px !important;
 }
 .m-r-32px {
   margin-right: 48 px;
@@ -22,10 +22,10 @@
   width: 100%;
   min-height: 100vh;
 }
-.admin-list-product span, 
-.admin-list-product button{
-    font-size: 20px;
-    margin: 0px 4px;
+.admin-list-product span,
+.admin-list-product button {
+  font-size: 20px;
+  margin: 0px 4px;
 }
 
 .admin-list-product .center-screen {
@@ -34,29 +34,32 @@
   transform: translateX(-50%);
   text-align: center;
 }
+.color-red {
+  color: #e74c3c;
+}
 
-.admin-list-product  .lazy-header-css {
+.admin-list-product .lazy-header-css {
   display: flex;
-  flex-direction:row; 
+  flex-direction: row;
   width: 100%;
   margin-bottom: 16px;
-  padding:16px 8px;
-  border-bottom: 1px solid rgb(51,51,51);
+  padding: 16px 8px;
+  border-bottom: 1px solid rgb(51, 51, 51);
 }
 
 .admin-list-product .lazy-header-css .add-product-btn {
-  padding:4px 8px;
+  padding: 4px 8px;
   color: #4797ff;
-  border:1px solid #4797ff;
+  border: 1px solid #4797ff;
   background-color: transparent;
-  transition: .75s;
+  transition: 0.75s;
 }
 .admin-list-product .lazy-header-css .add-product-btn:hover {
   cursor: pointer;
   color: white;
-  border:1px solid #4797ff;
+  border: 1px solid #4797ff;
   background-color: #4797ff;
-  transition: .75s;
+  transition: 0.75s;
 }
 .admin-list-product .list-product {
   display: flex;
@@ -80,31 +83,31 @@
   padding: 4px 8px;
 }
 .admin-list-product .list-product .product-item .btn.btn-change {
-    color:#2ecc71;
-    background-color: transparent;
-    border-color: #2ecc71;
-    transition: .75s;
+  color: #2ecc71;
+  background-color: transparent;
+  border-color: #2ecc71;
+  transition: 0.75s;
 }
 .admin-list-product .list-product .product-item .btn.btn-change:hover {
-    color:white;
-    background-color: #2ecc71;
-    transition: .75s;
+  color: white;
+  background-color: #2ecc71;
+  transition: 0.75s;
 }
 
 .admin-list-product .list-product .product-item .btn.btn-delete {
-    color:#e74c3c;
-    background-color: transparent;
-    border-color: #e74c3c;
-    transition: .75s;
+  color: #e74c3c;
+  background-color: transparent;
+  border-color: #e74c3c;
+  transition: 0.75s;
 }
 .admin-list-product .list-product .product-item .btn.btn-delete:hover {
-    color:white;
-    background-color: #e74c3c;
-    transition: .75s;
+  color: white;
+  background-color: #e74c3c;
+  transition: 0.75s;
 }
 .center-screen-loader {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

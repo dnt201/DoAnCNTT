@@ -1,55 +1,65 @@
-.m-l-32px {margin-left: 32px;}
+.m-l-32px {
+  margin-left: 32px;
+}
 .jt-ct-sa {
-    justify-content: space-around;
+  justify-content: space-around;
 }
 .color-red {
-    color: red;
+  color: #e74c3c;
 }
-.list-category-container .wrap img{
-    width: 25%;
+.list-category-container .wrap img {
+  width: 25%;
 }
-.list-category-container{
-    margin: 16px 8px;
+.list-category-container {
+  margin: 16px 8px;
+}
+.m-a {
+  margin-top: 16px;
+  text-align: center;
+  color: #e74c3c;
+}
+.m-a-lazy {
+  margin-top: 16px;
+  color: #e74c3c;
 }
 
 .list-category-container button,
 .list-category-container span {
-    font-size: 20px
+  font-size: 20px;
 }
 .list-category-container button.btn-add {
-    color: #4797ff;
-    border: 1px solid #4797ff;
-
+  color: #4797ff;
+  border: 1px solid #4797ff;
 }
 .list-category-container button.btn-add:hover {
-    background-color:#4797ff;
+  background-color: #4797ff;
 }
 .list-category-container button.btn-update {
-    color: #36b36a;
-    border: 1px solid #36b36a;
+  color: #36b36a;
+  border: 1px solid #36b36a;
 }
 .list-category-container button.btn-update:hover {
-    background-color:#36b36a;
+  background-color: #36b36a;
 }
 .list-category-container button.btn-delete {
-    color: #e74c3c;
-    border: 1px solid #e74c3c; 
+  color: #e74c3c;
+  border: 1px solid #e74c3c;
 }
 .list-category-container button.btn-delete:hover {
-    background-color:#e74c3c;
+  background-color: #e74c3c;
 }
 
 .list-category-container button {
-    transition: .5s;
-    background-color:transparent;
-    padding: 4px 8px;
+  transition: 0.5s;
+  background-color: transparent;
+  padding: 4px 8px;
 }
 .list-category-container button:hover {
-    color:white;
-    cursor: pointer;
-    transition: .5s;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
 }
 .list-category-container .wrap {
-    padding-bottom: 16px;
-    border-bottom: 1px solid rgb(51,51,51);
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgb(51, 51, 51);
 }

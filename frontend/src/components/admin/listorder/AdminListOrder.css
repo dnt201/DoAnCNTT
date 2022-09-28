@@ -1,50 +1,70 @@
-.flex-1{flex:1}
-.flex-2{flex:2}
-.flex-3{flex:3}
-.flex-4{flex:4}
-.m-lr-8px {margin: 0px 8px}
-.m-b-8px {margin-bottom: 8px}
-.m-b-24px {margin-bottom: 24px}
-.w-120px {width: 120px}
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
+.m-lr-8px {
+  margin: 0px 8px;
+}
+.m-b-8px {
+  margin-bottom: 8px;
+}
+.m-b-24px {
+  margin-bottom: 24px;
+}
+.w-120px {
+  width: 120px;
+}
 .flex-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .flex-column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
-.vertical-center {   
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    height: 100%;
+.vertical-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.center-screen {
+  text-align: center;
+  margin-top: 16px;
 }
 .delivered {
-    color:#2ecc71;
+  color: #2ecc71;
 }
 .canceled {
-    color:#e74c3c;
+  color: #e74c3c;
 }
 
 .list-order-container .wrap-order {
-    border-bottom: 1px solid rgb(51,51,51);
+  border-bottom: 1px solid rgb(51, 51, 51);
 }
 
 .list-order-container .wrap-order span,
-.list-order-container .wrap-order select{
-    font-size:20px;
+.list-order-container .wrap-order select {
+  font-size: 20px;
 }
 .list-order-container .wrap-order .btn-details {
-    font-size: 18px;
-    padding:8px 16px;
-    color: #4797ff;
-    border:1px solid #4797ff;
-    background-color: transparent;
-    transition: .5s;
+  font-size: 18px;
+  padding: 8px 16px;
+  color: #4797ff;
+  border: 1px solid #4797ff;
+  background-color: transparent;
+  transition: 0.5s;
 }
 .list-order-container .wrap-order .btn-details:hover {
-    cursor: pointer;
-    color: white;
-    background-color: #4797ff;
+  cursor: pointer;
+  color: white;
+  background-color: #4797ff;
 }
